@@ -10,11 +10,11 @@ class TestCataloge:
         # GIVEN
         browser.get('http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/')
 
+        time.sleep(30)  # For review
+
         # THEN
         product_button = WebDriverWait(browser, 10).until(
             expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, '.btn-add-to-basket')))
-
-        time.sleep(10)  # For review
 
         assert product_button, 'There is no button!'
 
