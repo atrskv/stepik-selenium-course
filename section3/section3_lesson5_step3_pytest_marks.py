@@ -80,4 +80,6 @@ def test_not_succeed():
 def test_skipped():
     assert False
 
+# pytest -m "smoke or regression" --browser_name=firefox tests.py
+
 
