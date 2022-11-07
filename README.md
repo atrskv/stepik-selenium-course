@@ -7,4 +7,4 @@
 - [x] **Секция 1.** [Знакомимся с Selenium](https://github.com/atrskv/stepik-selenium-course/tree/main/section1)
 - [x] **Секция 2.** [Полезные методы Selenium](https://github.com/atrskv/stepik-selenium-course/tree/main/section2)
 - [x] **Секция 3.** Тестовые фреймворки
-- [ ] **Секция 4.** Приминение паттерна Page Object Model
+- [ ] **Секция 4.** Применение паттерна Page Object Model
